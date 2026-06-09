@@ -45,8 +45,8 @@ a,a:hover
 {
     text-decoration: none;
 }
-/*navbar*/
 
+/*navbar*/
 .navbar
 {
      background-color: var(--white);
@@ -107,3 +107,38 @@ a,a:hover
 {
      height: 45px;
 }
+
+/* home section */
+.header-content
+ {
+    background-color: #fbfbfb;
+    height: 800px;
+    padding-top: 110px;
+    position: relative;
+    overflow: hidden;
+ }
+
+ .home-text h4
+ {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    color: var(--main-color);
+ }
+
+ .home-text h1
+ {
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    color: var(--black-900);
+ }
+
+ .home-text p
+ {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--black-400);
+    font-weight: 300;
+    padding: 30px;
+ }
